@@ -1,0 +1,116 @@
+.script-table {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.script-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.script-info {
+  flex: 1;
+}
+
+.script-header {
+  margin-bottom: 4px;
+}
+
+.change-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.change-info {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 13px;
+  color: #212529;
+}
+
+.change-arrow,
+.change-value,
+.change-percent {
+  font-weight: 500;
+  color: #212529;
+}
+
+.script-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.script-details {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.time,
+.script-id,
+.detail-item {
+  display: flex;
+  gap: 12px;
+  font-size: 10px;
+  color: black;
+}
+
+.price-info {
+  display: flex;
+  gap: 24px;
+  text-align: right;
+}
+
+.bid,
+.ask {
+  min-width: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-price {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.bid .main-price {
+  color: #dc3545;
+}
+
+.ask .main-price {
+  color: #1976d2;
+}
+
+.main-price sub {
+  font-size: 11px;
+  font-weight: normal;
+  vertical-align: baseline;
+  margin-left: 1px;
+}
+
+.quantity {
+  font-size: 10px;
+  color: black;
+  margin-top: 2px;
+}
+
+.current,
+.last {
+  font-size: 10px;
+  color: black;
+  margin-top: 2px;
+}
+
+/* Container padding adjustment */
+.container {
+  padding: 0;
+  max-width: 100%;
+}

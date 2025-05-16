@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px 60px 16px; /* Added left and right padding, kept bottom space for navigation */
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* Ensure content doesn't overlap with bottom nav */
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
